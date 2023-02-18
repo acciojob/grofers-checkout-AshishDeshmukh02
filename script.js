@@ -18,7 +18,7 @@ document.body.appendChild(getSumBtn);
   // Create a new row to display the total price
   const newRow = document.createElement('tr');
   const totalCell = document.createElement('td');
-  totalCell.textContent = `#ans: ${totalPrice.toFixed(2)}`;
+  totalCell.textContent = `Total Price: ${totalPrice.toFixed(2)}`;
   newRow.appendChild(totalCell);
 
   // Add the new row to the table
