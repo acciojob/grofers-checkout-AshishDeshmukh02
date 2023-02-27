@@ -7,6 +7,6 @@ const calculateTotalBtn = document.getElementById('calculate-total-btn');
 			prices.forEach(price => {
 				totalPrice += parseFloat(price.textContent);
 			});
-			const totalPriceCell = document.getElementById('total-price');
+			const totalPriceCell = document.getElementById('ans');
 			totalPriceCell.textContent = totalPrice.toFixed(2);
 		}
